@@ -1,0 +1,102 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10em;
+    padding-right: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.flex-container>div {
+    width: 30%;
+}
+
+.bio {
+    background-color:#c0ccc3;
+    height: 150px;
+    border: 0px solid green;
+    padding-top: 5%;
+}
+
+.bio>a{
+    height: 100%;
+    display: block;
+  }
+
+.bio:hover{
+    background-color: blanchedalmond;
+}
+
+.photo {
+    background-color: blue;
+    height: 150px;
+    border: 0px solid green;
+    padding-top: 5%;
+    
+}
+
+.photo>a{
+    height: 100%;
+    display: block;
+  }
+
+.photo:hover{
+    background-color:chartreuse;
+}
+
+.educ {
+   background-color: #718075;
+   height: 200px;
+   border: 0px solid green;
+   padding-top: 5%;
+     
+}
+
+.educ:hover{
+    background-color: aqua;
+}
+
+.educ>a{
+  height: 100%;
+  display: block;
+}
+
+.educ:hover{
+    background-color: aquamarine;
+}
+
+.hobb {
+    background-color: #79917f;
+    height: 250px;
+    border: 0px solid green;
+    padding-top: 5%;  
+
+}
+
+.hobb>a{
+    height: 100%;
+    display: block;
+  }
+
+.hobb:hover{
+    background-color: blueviolet;
+}
+
+.cont {
+    background-color:#d6b392;
+    height: 250px;
+    border: 0px solid green;
+    padding-top: 5%;
+} 
+
+.cont>a{
+    height: 100%;
+    display: block;
+  }
+
+.cont:hover{
+    background-color: chocolate;
+}
+
